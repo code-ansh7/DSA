@@ -6,7 +6,6 @@ public class Array_sum {
     int s = sc.nextInt();
     int[] arr = new int[s];
     int sum = 0;
-    System.out.println("Enter Array elements : ");
     for(int i = 0; i < s; i++){
         arr[i] = sc.nextInt();
     }
