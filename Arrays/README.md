@@ -23,6 +23,11 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 - Last Occurrence
 - Count Occurrences
 
+### Day 4 ✅
+- Largest Element
+- Second Largest Element
+- Two Loop Approach
+- Single Loop Approach
 
 ## Problems Solved
 1. Array Sum
@@ -34,9 +39,11 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 7. First Occurrence
 8. Last Occurrence
 9. Count Occurrences
-
+10. Largest Element
+11. Second Largest Element (Single Loop)
+12. Second Largest Element (Two Loops)
 
 ## Total Stats
 
-- Days Completed: 3
-- Problems Solved: 9
+- Days Completed: 4
+- Problems Solved: 12
