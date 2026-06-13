@@ -30,6 +30,7 @@ O(n)
 
 1. Check Sorted Array
 2. Strictly Increasing Array
+3. Count order of breaks
 
 ## Learning Outcome
 
