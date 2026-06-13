@@ -51,6 +51,7 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 12. Second Largest Element (Two Loops)
 13. Check Sorted Array
 14. Count Order of breaks
+15. Strictly Increasing Array
 
 ## Patterns Learned
 
@@ -79,6 +80,7 @@ Used for:
 Used for:
 - Sorted Array
 - Order Checking
+- Stictly increasing array
 
 ### Pattern 5 - Condition Checking
 Rule:
@@ -89,5 +91,5 @@ Rule:
 ## Total Stats
 
 - Days Completed: 5
-- Problems Solved: 14
+- Problems Solved: 15
 - Patterns Learned: 5
