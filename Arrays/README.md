@@ -48,6 +48,11 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 * Position Pointer Pattern
 * Traversal + Copy Pattern
 
+### Day 7 ✅
+* Remove Duplicates From Sorted Array
+* Unique Element Identification
+* Adjacent Comparison + Position Pointer Combination
+
 ## Problems Solved
 
 1. Array Sum
@@ -67,6 +72,7 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 15. Strictly Increasing Array
 16. Move Zeroes To End
 17. Count Zeroes and Non Zeroes
+18. Remove Duplicates From Sorted Array
  
 ## Patterns Learned
 
@@ -124,6 +130,6 @@ Used for:
 
 ## Total Stats
 
-* Days Completed: 6
-* Problems Solved: 17
+* Days Completed: 7
+* Problems Solved: 18
 * Patterns Learned: 6
