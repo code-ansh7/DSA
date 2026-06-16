@@ -53,6 +53,13 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 * Unique Element Identification
 * Adjacent Comparison + Position Pointer Combination
 
+### Day 8 ✅
+* Left Rotate By One
+* Right Rotate By One
+* Left Rotate By N
+* Traversal + Shifting Pattern
+* Rotation Formula (k % n)
+
 ## Problems Solved
 
 1. Array Sum
@@ -73,6 +80,9 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 16. Move Zeroes To End
 17. Count Zeroes and Non Zeroes
 18. Remove Duplicates From Sorted Array
+19. Left Rotate By One
+20. Right Rotate By One
+21. Left Rotate By N
  
 ## Patterns Learned
 
@@ -122,14 +132,20 @@ Rule:
 ### Pattern 6 - Position Pointer
 
 Used for:
-
 * Move Zeroes To End
 * Rearranging Elements
 * In-place Array Modification
 * Future Two Pointer Problems
 
+### Pattern 7 - Traversal + Shifting
+
+Used for:
+* Left Rotation
+* Right Rotation
+* Rotate By N
+
 ## Total Stats
 
-* Days Completed: 7
-* Problems Solved: 18
-* Patterns Learned: 6
+* Days Completed: 8
+* Problems Solved: 21
+* Patterns Learned: 7
