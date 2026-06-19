@@ -1,64 +1,57 @@
- # Arrays 🚀
+# Arrays 🚀
 
 Arrays are the first and most fundamental topic in Data Structures and Algorithms.
 
 ## Progress
 
 ### Day 1 ✅
-
-* Time Complexity
-* O(1), O(n), O(n²), O(log n) 
-* Array Sum
-* Array Minimum
-* Array Maximum
+- Time Complexity
+- O(1), O(n), O(n²), O(log n)
+- Array Sum
+- Array Minimum
+- Array Maximum
 
 ### Day 2 ✅
-
-* Array Traversal
-* Reverse Traversal
-* arr.length
-* Array Indexing
+- Array Traversal
+- Reverse Traversal
+- Array Indexing
+- arr.length
 
 ### Day 3 ✅
-
-* Linear Search
-* First Occurrence
-* Last Occurrence
-* Count Occurrences
+- Linear Search
+- First Occurrence
+- Last Occurrence
+- Count Occurrences
 
 ### Day 4 ✅
-
-* Largest Element
-* Second Largest Element
-* Two Loop Approach
-* Single Loop Approach
+- Largest Element
+- Second Largest Element
+- Two Loop Approach
+- Single Loop Approach
 
 ### Day 5 ✅
-
-* Check Sorted Array
-* Strictly Increasing Array
-* Adjacent Comparison Pattern
-* Condition Checking Pattern
+- Check Sorted Array
+- Strictly Increasing Array
+- Adjacent Comparison
+- Condition Checking
 
 ### Day 6 ✅
-
-* Move Zeroes To End
-* Count Zeroes
-* Count Non-Zeroes
-* Position Pointer Pattern
-* Traversal + Copy Pattern
+- Move Zeroes To End
+- Count Zeroes
+- Count Non-Zeroes
+- Position Pointer
 
 ### Day 7 ✅
-* Remove Duplicates From Sorted Array
-* Unique Element Identification
-* Adjacent Comparison + Position Pointer Combination
+- Remove Duplicates From Sorted Array
+- Duplicate Detection
+- Position Pointer + Adjacent Comparison
 
 ### Day 8 ✅
-* Left Rotate By One
-* Right Rotate By One
-* Left Rotate By N
-* Traversal + Shifting Pattern
-* Rotation Formula (k % n)
+- Left Rotate By One
+- Right Rotate By One
+- Left Rotate By N
+- Rotation Formula (k % n)
+- Traversal + Shifting
 
 ### Day 9 ✅
 - Reverse Array
@@ -72,7 +65,15 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 - Frequency of All Elements
 - Visited Logic
 - Continue Statement
-- Past Check Concept
+- Past Check Logic
+
+### Day 11 ✅
+- Majority Element
+- Found Variable
+- Break Statement
+- Frequency + Condition Checking
+
+---
 
 ## Problems Solved
 
@@ -86,96 +87,133 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 8. Last Occurrence
 9. Count Occurrences
 10. Largest Element
-11. Second Largest Element (Single Loop)
-12. Second Largest Element (Two Loops)
+11. Second Largest Element (Two Loops)
+12. Second Largest Element (Single Loop)
 13. Check Sorted Array
-14. Count Order of Breaks
+14. Count Order Of Breaks
 15. Strictly Increasing Array
 16. Move Zeroes To End
-17. Count Zeroes and Non Zeroes
-18. Remove Duplicates From Sorted Array
-19. Left Rotate By One
-20. Right Rotate By One
-21. Left Rotate By N
-22. Reverse Array
-23. Check Palindrome Array
-24. Frequency of One Element
-25. Frequency of All Elements
-    
+17. Count Zeroes
+18. Count Non-Zeroes
+19. Remove Duplicates From Sorted Array
+20. Left Rotate By One
+21. Right Rotate By One
+22. Left Rotate By N
+23. Reverse Array
+24. Check Palindrome Array
+25. Frequency Of One Element
+26. Frequency Of All Elements
+27. Majority Element
+
+---
+
 ## Patterns Learned
 
 ### Pattern 1 - Traversal
-
-Used for:
-
-* Sum
-* Count
-* Print
-* Reverse
+Used For:
+- Sum
+- Count
+- Print
+- Reverse Traversal
 
 ### Pattern 2 - Linear Search
+Used For:
+- Search Element
+- First Occurrence
+- Last Occurrence
+- Count Occurrences
 
-Used for:
-
-* Search Element
-* First Occurrence
-* Last Occurrence
-* Count Occurrences
-
-### Pattern 3 - Max/Min
-
-Used for:
-
-* Largest Element
-* Smallest Element
-* Second Largest
-* Second Smallest
+### Pattern 3 - Max / Min
+Used For:
+- Largest Element
+- Smallest Element
+- Second Largest
+- Second Smallest
 
 ### Pattern 4 - Adjacent Comparison
-
-Used for:
-
-* Sorted Array
-* Order Checking
-* Strictly Increasing Array
+Used For:
+- Sorted Array
+- Strictly Increasing Array
+- Duplicate Detection
 
 ### Pattern 5 - Condition Checking
-
 Rule:
+- Assume condition is true.
+- Find violation.
+- Make condition false.
 
-* Assume condition is true.
-* Find violation.
-* Make condition false if violation occurs.
+Used For:
+- Sorted Array
+- Strictly Increasing Array
+- Palindrome Check
+- Majority Check
 
 ### Pattern 6 - Position Pointer
-
-Used for:
-* Move Zeroes To End
-* Rearranging Elements
-* In-place Array Modification
-* Future Two Pointer Problems
+Used For:
+- Move Zeroes To End
+- Remove Duplicates
+- In-Place Modification
 
 ### Pattern 7 - Traversal + Shifting
-
-Used for:
-* Left Rotation
-* Right Rotation
-* Rotate By N
+Used For:
+- Left Rotation
+- Right Rotation
+- Rotate By N
 
 ### Pattern 8 - Two Pointer
-Used for:
+Used For:
 - Reverse Array
 - Palindrome Array
 - Reverse String
 
 ### Pattern 9 - Frequency Counting
-Used for:
+Used For:
 - Count Occurrences
-- Frequency of Elements
-- Duplicate Analysis
+- Frequency Of Elements
+- Majority Element
+
+### Pattern 10 - Visited Logic
+Rule:
+- Check whether current element has already appeared before.
+- If yes, skip it.
+- If no, process it.
+
+Used For:
+- Frequency Of All Elements
+- Majority Element
+
+---
+
+## Important Concepts Learned
+
+- Time Complexity
+- Array Traversal
+- Linear Search
+- Max / Min Logic
+- Adjacent Comparison
+- Condition Checking
+- Position Pointer
+- Rotation Logic
+- Two Pointer
+- Frequency Count
+- Visited Logic
+- Continue Statement
+- Break Statement
+- Found Variable
+
+---
 
 ## Total Stats
 
-* Days Completed: 10
-* Problems Solved: 25
-* Patterns Learned: 9
+- Days Completed: 11
+- Problems Solved: 27
+- Patterns Learned: 10
+
+## Current Status
+
+✅ Arrays Basics Completed (Strong Foundation)
+
+🎯 Next Goal:
+- More Array Interview Questions
+- Medium Level Array Problems
+- Placement-Oriented Logic Building
