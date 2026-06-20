@@ -73,6 +73,15 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 - Break Statement
 - Frequency + Condition Checking
 
+### Day 12 ✅
+- Missing Number (1 to N)
+- Missing Number (0 to N)
+- Expected Sum
+- Actual Sum
+- Observation Based Questions
+- Formula Based Thinking
+- LeetCode #268 Missing Number
+
 ---
 
 ## Problems Solved
@@ -104,7 +113,8 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 25. Frequency Of One Element
 26. Frequency Of All Elements
 27. Majority Element
-
+28. Missing Number (1 to N)
+29. Missing Number (0 to N)
 ---
 
 ## Patterns Learned
@@ -177,10 +187,18 @@ Rule:
 - Check whether current element has already appeared before.
 - If yes, skip it.
 - If no, process it.
-
 Used For:
 - Frequency Of All Elements
 - Majority Element
+
+### Pattern 11 - Observation + Formula
+Rule:
+Expected Value - Actual Value = Answer
+
+Used For:
+- Missing Number
+- Sum Based Problems
+- Mathematical Observation Questions
 
 ---
 
@@ -205,9 +223,9 @@ Used For:
 
 ## Total Stats
 
-- Days Completed: 11
-- Problems Solved: 27
-- Patterns Learned: 10
+- Days Completed: 12
+- Problems Solved: 29
+- Patterns Learned: 11
 
 ## Current Status
 
