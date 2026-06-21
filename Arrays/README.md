@@ -2,6 +2,22 @@
 
 Arrays are the first and most fundamental topic in Data Structures and Algorithms.
 
+## Arrays Progress
+
+Day 1  - Traversal Basics
+Day 2  - Search Basics
+Day 3  - Max / Min
+Day 4  - Second Largest
+Day 5  - Sorted Array Check
+Day 6  - Move Zeroes
+Day 7  - Remove Duplicates
+Day 8  - Array Rotation
+Day 9  - Reverse & Palindrome
+Day 10 - Frequency Count
+Day 11 - Majority Element
+Day 12 - Missing Number
+Day 13 - Duplicate Elements
+
 ## Progress
 
 ### Day 1 ✅
@@ -82,6 +98,13 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 - Formula Based Thinking
 - LeetCode #268 Missing Number
 
+### Day 13 ✅
+- Find Duplicate Elements
+- Frequency Of Duplicate Elements
+- Visited Logic Revision
+- Dry Run Tables
+- LeetCode #217 Contains Duplicate
+
 ---
 
 ## Problems Solved
@@ -115,6 +138,9 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 27. Majority Element
 28. Missing Number (1 to N)
 29. Missing Number (0 to N)
+30. Find Duplicate Elements
+31. Frequency Of Duplicate Elements
+
 ---
 
 ## Patterns Learned
@@ -200,32 +226,64 @@ Used For:
 - Sum Based Problems
 - Mathematical Observation Questions
 
+### Pattern 12 - Visited + Frequency
+
+Rule:
+
+Already Visited?
+↓
+Yes → Skip
+
+No
+↓
+Count Frequency
+↓
+Frequency > 1
+↓
+Duplicate Found
+
+Used For:
+- Duplicate Elements
+- Majority Element
+- Frequency Count
+
 ---
 
 ## Important Concepts Learned
 
 - Time Complexity
+- Space Complexity
 - Array Traversal
 - Linear Search
 - Max / Min Logic
 - Adjacent Comparison
 - Condition Checking
+- Violation Concept
 - Position Pointer
 - Rotation Logic
+- Left Shift
+- Right Shift
 - Two Pointer
 - Frequency Count
 - Visited Logic
+- Observation Based Thinking
+- Formula Based Thinking
+- Duplicate Detection
+- Majority Element Logic
+- Missing Number Logic
 - Continue Statement
 - Break Statement
 - Found Variable
+- Dry Run Tables
+- Pattern Recognition
 
 ---
 
 ## Total Stats
 
-- Days Completed: 12
-- Problems Solved: 29
-- Patterns Learned: 11
+- Days Completed: 13
+- Problems Solved: 31
+- Patterns Learned: 12
 
 ## Current Status
 
