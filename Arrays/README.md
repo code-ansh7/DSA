@@ -1,5 +1,22 @@
 # Arrays 🚀
 
+# Arrays 🚀
+
+> "Learn → Practice → Debug → Repeat"
+
+---
+
+# 📊 DSA Dashboard
+
+| 📈 Metric | Value |
+|-----------|------:|
+| ✅ Days Completed | 17 |
+| 💻 Problems Solved | 36 |
+| 🧩 Patterns Learned | 17 |
+| 🎯 Current Module | Arrays |
+| 🚀 Next Module | Sliding Window |
+| 🔥 Difficulty | Easy → Medium |
+
 Arrays are the first and most fundamental topic in Data Structures and Algorithms.
 
 ## Arrays Progress
@@ -128,7 +145,13 @@ Day 13 - Duplicate Elements
 - Condition Based Reset
 - Pattern 16 Introduction
 
-
+Day 17 ✅
+Longest Consecutive Increasing Subarray
+Adjacent Comparison Revision
+Current Length
+Maximum Length
+Increasing Streak Tracking
+Self Debugging
 ---
 
 ## Problems Solved
@@ -168,6 +191,7 @@ Day 13 - Duplicate Elements
 33. Union of Two Arrays
 34. Maximum Consecutive Ones
 35. Maximum Consecutive Zeroes
+36. Longest Consecutive Increasing Subarray
 
 ---
 
@@ -402,6 +426,60 @@ Current changes frequently.
 
 Maximum changes only when a new record is created.
 
+### Pattern 17 - Adjacent Comparison + Current Length
+
+**Rule:**
+
+Compare the current element with the previous element.
+
+If the current element is greater than the previous element, extend the current increasing streak.
+
+Otherwise, start a new streak from the current element.
+
+---
+
+**Formula**
+
+```java
+if(arr[i] > arr[i-1])
+    currentLength++;
+else
+    currentLength = 1;
+
+if(currentLength > maxLength)
+    maxLength = currentLength;
+```
+
+---
+
+**Used For**
+
+* Longest Consecutive Increasing Subarray
+* Continuous Increasing Sequence
+* Longest Increasing Streak
+* Sliding Window Foundation
+
+---
+
+**Identification**
+
+Whenever the question asks:
+
+* Longest Increasing Continuous Sequence
+* Continuous Increasing Subarray
+* Increasing Streak
+
+compare the current element with the previous element.
+
+---
+
+**Golden Lines**
+
+Current Length = Current Increasing Streak
+
+Maximum Length = Best Increasing Streak Found So Far
+
+A single element itself forms an increasing subarray.
 
 ---
 
@@ -446,20 +524,36 @@ Maximum changes only when a new record is created.
 - Streak Tracking
 - Record Tracking
 - Condition Based Reset
+- Current Length
+- Maximum Length
+- Increasing Streak
+- Continuous Sequence Detection
+- Self Debugging
 
 ---
 
 ## Total Stats
 
-- Days Completed: 16
-- Problems Solved: 35
-- Patterns Learned: 16
+- Days Completed: 17
+- Problems Solved: 36
+- Patterns Learned: 17
 
-## Current Status
+ ## Current Status
 
-✅ Arrays Basics Completed (Strong Foundation)
+✅ Arrays Foundation Completed
 
-🎯 Next Goal:
-- More Array Interview Questions
-- Medium Level Array Problems
-- Placement-Oriented Logic Building
+🚀 Skills Developed
+
+* Pattern Recognition
+* Dry Run & Debugging
+* Brute Force Problem Solving
+* Logic Building
+* Self Coding Ability
+
+🎯 Next Milestone
+
+* Advanced Array Problems
+* Sliding Window
+* Prefix Sum
+* Kadane's Algorithm
+* Placement-Oriented Medium Questions
