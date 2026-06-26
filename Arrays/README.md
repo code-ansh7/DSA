@@ -8,9 +8,9 @@
 
 | 📈 Metric | Value |
 |-----------|------:|
-| ✅ Days Completed | 17 |
-| 💻 Problems Solved | 36 |
-| 🧩 Patterns Learned | 17 |
+| ✅ Days Completed | 18 |
+| 💻 Problems Solved | 38 |
+| 🧩 Patterns Learned | 18 |
 | 🎯 Current Module | Arrays |
 | 🚀 Next Module | Sliding Window |
 | 🔥 Difficulty | Easy → Medium |
@@ -135,6 +135,15 @@ Day 17 ✅
 - Maximum Length
 - Increasing Streak Tracking
 - Self Debugging
+
+### Day 18 ✅
+- Single Number
+- XOR Operator
+- Bit Manipulation Basics
+- Pair Cancellation
+- Brute Force vs Optimal
+- XOR Properties
+
 ---
 
 ## Problems Solved
@@ -175,6 +184,8 @@ Day 17 ✅
 34. Maximum Consecutive Ones
 35. Maximum Consecutive Zeroes
 36. Longest Consecutive Increasing Subarray
+37. Single Number (Brute Force)
+38. Single Number (XOR)
 
 ---
 
@@ -466,6 +477,50 @@ A single element itself forms an increasing subarray.
 
 ---
 
+### Pattern 18 - XOR Pair Cancellation
+
+Rule:
+
+Duplicate pairs automatically cancel each other using XOR.
+
+Formula:
+
+A ^ A = 0
+
+A ^ 0 = A
+
+Implementation:
+
+result = 0
+
+↓
+
+Traverse Array
+
+↓
+
+result ^= arr[i]
+
+↓
+
+Final result = Unique Element
+
+Used For:
+- Single Number
+- Duplicate Pair Cancellation
+- Bit Manipulation Basics
+
+Identification:
+
+Whenever every duplicate appears exactly twice and only one unique element exists, XOR is the optimal approach.
+
+Golden Line:
+
+Duplicate Pairs Cancel.
+Unique Element Remains.
+
+---
+
 ## Important Concepts Learned
 
 - Time Complexity
@@ -512,31 +567,37 @@ A single element itself forms an increasing subarray.
 - Increasing Streak
 - Continuous Sequence Detection
 - Self Debugging
+- XOR Operator
+- Bit Manipulation Basics
+- Pair Cancellation
+- Binary Thinking
+- XOR Properties
+- Optimal Thinking
 
 ---
 
 ## Total Stats
 
-- Days Completed: 17
-- Problems Solved: 36
-- Patterns Learned: 17
+- Days Completed: 18
+- Problems Solved: 38
+- Patterns Learned: 18
 
- ## Current Status
+## Current Status
 
-✅ Arrays Foundation Completed
+✅ Arrays Foundation Becoming Strong
 
 🚀 Skills Developed
 
-* Pattern Recognition
-* Dry Run & Debugging
-* Brute Force Problem Solving
-* Logic Building
-* Self Coding Ability
+- Pattern Recognition
+- Dry Run & Debugging
+- Brute Force to Optimal Thinking
+- Bit Manipulation Basics
+- Self Problem Solving
 
 🎯 Next Milestone
 
-* Advanced Array Problems
-* Sliding Window
-* Prefix Sum
-* Kadane's Algorithm
-* Placement-Oriented Medium Questions
+- Advanced Array Problems
+- Prefix Sum
+- Sliding Window
+- Kadane's Algorithm
+- Placement-Level Medium Questions
