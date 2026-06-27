@@ -1,5 +1,4 @@
 //Used when every duplicate element appears only 2 times and present only one unique element.
-
 import java.util.*;
 public class XORsolution {
     public static void main(String[] args) {

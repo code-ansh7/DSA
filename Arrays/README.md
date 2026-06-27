@@ -144,6 +144,13 @@ Day 17 ✅
 - Brute Force vs Optimal
 - XOR Properties
 
+### Day 19 ✅
+- Longest Subarray With Sum = K
+- Running Sum
+- Start Index + End Index
+- Length Formula
+- Break Optimization
+- Sliding Window Foundation
 ---
 
 ## Problems Solved
@@ -186,6 +193,7 @@ Day 17 ✅
 36. Longest Consecutive Increasing Subarray
 37. Single Number (Brute Force)
 38. Single Number (XOR)
+39. Longest Subarray With Sum = K (Brute Force)
 
 ---
 
@@ -521,6 +529,60 @@ Unique Element Remains.
 
 ---
 
+### Pattern 19 - Start Index + End Index
+
+Rule:
+
+Fix one starting index.
+
+Extend the ending index one by one.
+
+Maintain a running sum while extending the subarray.
+
+Flow:
+
+Start Index
+
+↓
+
+End Index
+
+↓
+
+Running Sum
+
+↓
+
+Sum == K ?
+
+↓
+
+Calculate Length
+
+↓
+
+Update Maximum Length
+
+Identification:
+
+Whenever a question asks for a continuous subarray, use Start Index + End Index.
+
+Used For:
+
+- Longest Subarray With Sum = K
+- Continuous Subarray Problems
+- Range Traversal Problems
+
+Golden Line:
+
+Fix the Start.
+
+Move the End.
+
+Observe the Range.
+
+---
+
 ## Important Concepts Learned
 
 - Time Complexity
@@ -573,31 +635,39 @@ Unique Element Remains.
 - Binary Thinking
 - XOR Properties
 - Optimal Thinking
+- Running Sum
+- Start Index
+- End Index
+- Continuous Subarray
+- Length Formula
+- Early Break Optimization
+- Variable Scope
+- Brute Force Range Traversal
 
 ---
 
 ## Total Stats
 
-- Days Completed: 18
-- Problems Solved: 38
-- Patterns Learned: 18
+- Days Completed: 19
+- Problems Solved: 39
+- Patterns Learned: 19
 
 ## Current Status
 
-✅ Arrays Foundation Becoming Strong
+✅ Strong Array Foundation
 
 🚀 Skills Developed
 
 - Pattern Recognition
 - Dry Run & Debugging
-- Brute Force to Optimal Thinking
+- Brute Force Thinking
+- Running Sum
 - Bit Manipulation Basics
-- Self Problem Solving
+- Range Traversal
 
-🎯 Next Milestone
+🎯 Next Goal
 
-- Advanced Array Problems
-- Prefix Sum
 - Sliding Window
+- Prefix Sum
 - Kadane's Algorithm
-- Placement-Level Medium Questions
+- Placement-Oriented Medium Problems
