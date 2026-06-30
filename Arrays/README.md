@@ -128,7 +128,7 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 - Condition Based Reset
 - Pattern 16 Introduction
 
-Day 17 ✅
+### Day 17 ✅
 - Longest Consecutive Increasing Subarray
 - Adjacent Comparison Revision
 - Current Length
