@@ -8,11 +8,11 @@
 
 | 📈 Metric | Value |
 |-----------|------:|
-| ✅ Days Completed | 21 |
-| 💻 Problems Solved | 41 |
-| 🧩 Patterns Learned | 21 |
+| ✅ Days Completed | 22 |
+| 💻 Problems Solved | 42 |
+| 🧩 Patterns Learned | 22 |
 | 🎯 Current Module | Arrays |
-| 🚀 Next Module | Sliding Window advanced |
+| 🚀 Next Module | Prefix Sum Advanced |
 | 🔥 Difficulty | Easy → Medium |
 
 Arrays are the first and most fundamental topic in Data Structures and Algorithms.
@@ -171,6 +171,13 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 - Edge Case Handling
 - Two Pointer Optimization
 
+### Day 22 ✅
+- Prefix Sum
+- Prefix Array
+- Range Sum Query
+- Prefix Construction
+- Query Optimization
+- Preprocessing
 
 ---
 
@@ -217,6 +224,7 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 39. Longest Subarray With Sum = K (Brute Force)
 40. Longest Subarray With Sum = K (Sliding Window)
 41. Maximum Sum Subarray (Fixed Size Sliding Window)
+42. Prefix Sum (Range Sum Query)
 
 ---
 
@@ -764,6 +772,66 @@ Reuse Previous Sum.
 
 ---
 
+### Pattern 22 - Prefix Sum
+
+Rule:
+
+Precompute cumulative sums once.
+
+Reuse them for answering multiple range sum queries.
+
+Formula:
+
+Prefix[0] = Array[0]
+
+Prefix[i] = Prefix[i-1] + Array[i]
+
+Range Sum
+
+Left == 0
+
+↓
+
+Prefix[Right]
+
+Else
+
+↓
+
+Prefix[Right] - Prefix[Left-1]
+
+Used For:
+
+- Range Sum Query
+- Multiple Queries
+- Cumulative Sum
+- Query Optimization
+
+Identification:
+
+Whenever the question contains
+
+- Multiple Range Queries
+- Sum Between Two Indexes
+- Repeated Sum Calculations
+
+Think
+
+Prefix Sum.
+
+Golden Lines:
+
+Calculate Once.
+
+Reuse Forever.
+
+Don't Recalculate.
+
+Reuse Previous Work.
+
+Preprocessing Saves Time.
+
+---
 
 ## Important Concepts Learned
 
@@ -843,36 +911,42 @@ Reuse Previous Sum.
 - Window Shrinking
 - Edge Case Handling
 - Two Pointer Optimization
+- Prefix Sum
+- Prefix Array
+- Prefix Construction
+- Range Sum Formula
+- Query Optimization
+- Preprocessing
+- Cumulative Sum
 
 ---
 
 ## Total Stats
 
-- Days Completed: 21
-- Problems Solved: 41
-- Patterns Learned: 21
+- Days Completed: 22
+- Problems Solved: 42
+- Patterns Learned: 22
 
- ## Current Status
+## Current Status
 
-✅ Strong Array Foundation
+✅ Arrays Foundation Becoming Strong
 
 🚀 Skills Developed
 
 - Pattern Recognition
-- Dry Run & Debugging
 - Brute Force Thinking
-- Running Sum
+- Optimization Thinking
+- Two Pointer Technique
 - Variable Sliding Window
 - Fixed Sliding Window
-- Two Pointer Technique
+- Prefix Sum
+- Running Sum
+- Range Query Optimization
 - Bit Manipulation Basics
-- Range Traversal
-- Algorithm Optimization
-- Best Window Tracking
 
 🎯 Next Goal
 
-- Prefix Sum
+- Prefix Sum + HashMap
+- Advanced Prefix Problems
 - Kadane's Algorithm
-- Advanced Sliding Window
-- Advanced Array Interview Questions
+- More Interview-Level Array Questions
