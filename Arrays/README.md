@@ -8,15 +8,16 @@
 
 | 📈 Metric | Value |
 |-----------|------:|
-| ✅ Days Completed | 22 |
-| 💻 Problems Solved | 42 |
-| 🧩 Patterns Learned | 22 |
+| ✅ Days Completed | 23 |
+| 💻 Problems Solved | 43 |
+| 🧩 Patterns Learned | 23 |
 | 🎯 Current Module | Arrays |
 | 🚀 Next Module | Prefix Sum Advanced |
 | 🔥 Difficulty | Easy → Medium |
 
 Arrays are the first and most fundamental topic in Data Structures and Algorithms.
 
+---
 
 ## Progress
 
@@ -179,6 +180,14 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 - Query Optimization
 - Preprocessing
 
+### Day 23 ✅
+- Prefix Sum + HashMap
+- Subarray Sum Equals K
+- Running Prefix
+- Need Formula
+- HashMap Search
+- Negative Numbers Handling
+
 ---
 
 ## Problems Solved
@@ -225,6 +234,7 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 40. Longest Subarray With Sum = K (Sliding Window)
 41. Maximum Sum Subarray (Fixed Size Sliding Window)
 42. Prefix Sum (Range Sum Query)
+43. Subarray Sum Equals K (Prefix Sum + HashMap)
 
 ---
 
@@ -237,12 +247,16 @@ Used For:
 - Print
 - Reverse Traversal
 
+---
+
 ### Pattern 2 - Linear Search
 Used For:
 - Search Element
 - First Occurrence
 - Last Occurrence
 - Count Occurrences
+
+---
 
 ### Pattern 3 - Max / Min
 Used For:
@@ -251,11 +265,15 @@ Used For:
 - Second Largest
 - Second Smallest
 
+---
+
 ### Pattern 4 - Adjacent Comparison
 Used For:
 - Sorted Array
 - Strictly Increasing Array
 - Duplicate Detection
+
+---
 
 ### Pattern 5 - Condition Checking
 Rule:
@@ -269,11 +287,15 @@ Used For:
 - Palindrome Check
 - Majority Check
 
+---
+
 ### Pattern 6 - Position Pointer
 Used For:
 - Move Zeroes To End
 - Remove Duplicates
 - In-Place Modification
+
+---
 
 ### Pattern 7 - Traversal + Shifting
 Used For:
@@ -281,17 +303,23 @@ Used For:
 - Right Rotation
 - Rotate By N
 
+---
+
 ### Pattern 8 - Two Pointer
 Used For:
 - Reverse Array
 - Palindrome Array
 - Reverse String
 
+---
+
 ### Pattern 9 - Frequency Counting
 Used For:
 - Count Occurrences
 - Frequency Of Elements
 - Majority Element
+
+---
 
 ### Pattern 10 - Visited Logic
 Rule:
@@ -302,6 +330,8 @@ Used For:
 - Frequency Of All Elements
 - Majority Element
 
+---
+
 ### Pattern 11 - Observation + Formula
 Rule:
 Expected Value - Actual Value = Answer
@@ -310,6 +340,8 @@ Used For:
 - Missing Number
 - Sum Based Problems
 - Mathematical Observation Questions
+
+---
 
 ### Pattern 12 - Visited + Frequency
 
@@ -332,6 +364,8 @@ Used For:
 - Majority Element
 - Frequency Count
 
+---
+
 ### Pattern 13 - Comparison Between Two Arrays
 
 Rule:
@@ -350,6 +384,8 @@ Whenever the question contains two arrays and asks for common elements, matching
 Time Complexity:
 
 O(n × m)
+
+---
 
 ### Pattern 14 - Result Array + Position Pointer
 
@@ -376,6 +412,7 @@ Important:
 
 pos always points to the next empty position.
 
+---
 
 ### Pattern 15 - Search Before Insert
 
@@ -436,6 +473,8 @@ Golden Line:
 Search First,
 Insert Later.
 
+---
+
 ### Pattern 16 - Current Count + Maximum Count
 
 Rule:
@@ -458,6 +497,8 @@ Golden Line:
 Current changes frequently.
 
 Maximum changes only when a new record is created.
+
+---
 
 ### Pattern 17 - Adjacent Comparison + Current Length
 
@@ -833,6 +874,57 @@ Preprocessing Saves Time.
 
 ---
 
+### Pattern 23 - Prefix Sum + HashMap
+
+Rule:
+
+Store previously calculated Prefix Sums inside a HashMap.
+
+Search old Prefix in O(1).
+
+Formula:
+
+Current Prefix - Old Prefix = K
+
+Old Prefix = Current Prefix - K
+
+Used For:
+
+- Subarray Sum Equals K
+- Negative Numbers
+- Fast Prefix Search
+- Running Prefix Problems
+
+Identification:
+
+Whenever
+
+- Negative Numbers are present
+- Sliding Window fails
+- Need fast searching
+
+Think
+
+Prefix Sum + HashMap.
+
+Golden Lines:
+
+Running Prefix
+
+↓
+
+Need = Prefix - K
+
+↓
+
+Search Old Prefix
+
+↓
+
+Subarray Found.
+
+---
+
 ## Important Concepts Learned
 
 - Time Complexity
@@ -918,35 +1010,47 @@ Preprocessing Saves Time.
 - Query Optimization
 - Preprocessing
 - Cumulative Sum
+- Running Prefix
+- Old Prefix
+- Need Formula
+- HashMap
+- Key Value Mapping
+- Fast Searching
+- Prefix Difference
+- Negative Number Handling
 
 ---
 
 ## Total Stats
 
-- Days Completed: 22
-- Problems Solved: 42
-- Patterns Learned: 22
+- Days Completed: 23
+- Problems Solved: 43
+- Patterns Learned: 23
+
+---
 
 ## Current Status
 
-✅ Arrays Foundation Becoming Strong
+✅ Arrays Foundation Strong
 
 🚀 Skills Developed
 
 - Pattern Recognition
 - Brute Force Thinking
 - Optimization Thinking
-- Two Pointer Technique
-- Variable Sliding Window
+- Two Pointer
+- Sliding Window
 - Fixed Sliding Window
 - Prefix Sum
-- Running Sum
-- Range Query Optimization
+- Prefix Sum + HashMap
+- Running Prefix
+- Fast Searching
+- Query Optimization
 - Bit Manipulation Basics
 
 🎯 Next Goal
 
-- Prefix Sum + HashMap
-- Advanced Prefix Problems
+- Prefix Sum Advanced
+- Longest Subarray With Sum K
 - Kadane's Algorithm
-- More Interview-Level Array Questions
+- More Medium Level Interview Questions
